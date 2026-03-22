@@ -273,7 +273,3 @@ fmcg-brand-intelligence/
 │
 └── requirements.txt
 ```
-
-
-**Why Secrets Manager over environment variables?**
-Snowflake credentials rotated via Secrets Manager without redeploying Lambda or Glue. Environment variables require redeployment on every credential change.
